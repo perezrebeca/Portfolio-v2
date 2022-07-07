@@ -68,6 +68,10 @@ body {
   padding: 0;
 }
 
+.project-big-image {
+  object-fit: cover;
+}
+
 .project-sm-image {
   height: 300px;
   object-fit: cover;
