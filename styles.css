@@ -1,0 +1,128 @@
+body {
+  background-color: #CFDAC8;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+}
+
+
+#hero-page {
+  padding: 5% 7%;
+}
+
+.title-container {
+  padding: 0 8% 8%;
+
+}
+
+.big-header {
+  font-size: 1.75rem;
+  opacity: 75%;
+  padding: 20% 0 0;
+}
+
+.title-description {
+  font-size: 1.8rem;
+}
+
+.vertical-line {
+  border-left: 1px solid #000;
+  height: 140px;
+  opacity: 30%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Project Section */
+#projects {
+  padding: 8% 4% 0;
+}
+
+/* Fades In Section */
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.project-box {
+  padding: 5%;
+}
+
+.card {
+  margin: 10px;
+}
+
+.big-image-box {
+  overflow: hidden;
+  height: 615px;
+}
+
+.image-box{
+  padding: 0;
+}
+
+.project-sm-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.text-card {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-card:hover {
+  font-style: italic;
+}
+
+.text-card>a {
+  color: #CFDAC8;
+  text-decoration: none;
+  padding: 30% 36%;
+}
+
+#contact {
+  padding: 0 10% 8%;
+}
+
+.bottom-container {
+
+}
+
+.contact-form {
+  background-color: #fff;
+  height: 500px;
+  margin: 3% 27%;
+  padding: 5% 4%;
+  border-radius: 5%;
+  opacity: 75%;
+}
+
+.form-group {
+  padding: 2%;
+}
+
+/* Footer Section */
+.footer {
+
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.no-bullets>li {
+  display: inline;
+  padding: 5px;
+}
