@@ -134,14 +134,14 @@ body {
 
 @media (max-width: 650px) {
   .vertical-line {
-    height: 125px;
+    height: 95px;
   }
 
   #projects {
-    padding: 15% 4% 0;
+    padding: 20% 4% 0;
   }
 
   .bottom-container {
-    padding: 45% 28% 10%;
+    padding: 30% 0 10%;
   }
 }
